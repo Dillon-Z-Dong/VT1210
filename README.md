@@ -3,7 +3,7 @@ Code used in the analysis of VT 1210+4956.
 
 Contents:
 
-**Radio modeling**
+**Radio**
 - **radio_modeling.py**
   - MCMC fitting of radio spectra in both follow-up epochs, Monte Carlo estimation of parameter distributions
 - VT1210_epoch(1/2)_photometry.csv
@@ -15,6 +15,8 @@ Contents:
   - (sys): epsilon_e = 0.1, epsilon_B = log-uniform(1e-3, 0.1), f = uniform(0.1,0.5)
 - VT1210_subplot_nolabels_log_SED.png
   - Fitted radio spectra of VT 1210+4956. Used in Fig. 1 of the paper.
+
+**Free-free**
 - **free_free_absorption_test.py**
   - MCMC test to show that the lowest frequency observations of VT 1210+4956 are not consistent with free-free absorption. 
 - VT1210-free-free-abs-corner.png
@@ -23,7 +25,7 @@ Contents:
   - Output plot of free_free_absorption_test.py. Note that the data are not sufficient to constrain the properties of the hypothetical free-free absorbing gas. Various (degenerate) combinations of emission measures and temperatures can reproduce the peak, and high frequency emission but not the low frequency emission. 
 
 
-**Optical modeling**
+**Optical**
 - **optical_modeling.py**
   - MCMC fitting of emission lines in the LRIS followup spectrum. 
 - lrisC0477_g1.spec
@@ -39,7 +41,7 @@ Contents:
 - C0477_fitted_spectrum_plot.png
   - Fitted optical spectra of VT 1210+4956. Used in Fig. 2 of the paper.
 
-**X-ray modeling**
+**X-ray**
 - **X_ray_lightcurve.py**
   - Code for plotting the MAXI lightcurve and effective area. Additional MCMC consistency check that the short observed burst duration is not due to the effective area. Calculation of the total corrected energy emitted during the burst.
 - X_ray_counts.csv
