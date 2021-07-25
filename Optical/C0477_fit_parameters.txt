@@ -1,0 +1,20 @@
+H$\alpha$ broad:
+    Assumed rest lambda: 6562.8
+    Luminosity [7.29813123e+38 2.81827409e+37 3.04886798e+37]
+    velocity [1349.82594525   58.27293772   55.00178626]
+    flux (erg/s/cm2) [2.78584570e-16 1.07579276e-17 1.16381516e-17]
+NII 6583:
+    Assumed rest lambda: 6583.45
+    Luminosity [5.95168873e+37 7.55450736e+36 7.63201123e+36]
+    velocity [268.26588396]
+    flux (erg/s/cm2) [2.27188110e-17 2.88370970e-18 2.91329451e-18]
+H$\alpha$ narrow:
+    Assumed rest lambda: 6562.8
+    Luminosity [2.84484814e+38 1.04983682e+37 1.17076649e+37]
+    velocity [269.10998869]
+    flux (erg/s/cm2) [1.08593662e-16 4.00744148e-18 4.46905472e-18]
+NII 6548:
+    Assumed rest lambda: 6548.05
+    Luminosity [2.20193055e+37 9.55916105e+36 9.10853940e+36]
+    velocity [269.7161802]
+    flux (erg/s/cm2) [8.40521848e-18 3.64892694e-18 3.47691546e-18]
